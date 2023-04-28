@@ -46,17 +46,16 @@
 	  width: 600px;
 	  margin: auto;
 	  margin-top: 20px;
-	  display: none;
       }
     </style>
 
     <script>
       function showPix() {
-	  var htmlShow = document.getElementById("pix");
-	  if (htmlShow.style.display === "none") {
-	      htmlShow.style.display = "block";
+	  var pix = document.getElementById("pix");
+	  if (pix.style.display === "none") {
+	      pix.style.display = "block";
 	  } else {
-	      htmlShow.style.display = "none";
+	      pix.style.display = "none";
 	  }
       }
     </script>
@@ -133,7 +132,7 @@
 	</div>
       </button>
 
-      <div id="pix" class="terminal-alert terminal-alert-error">pix.dunossauro@gmail.com</div>
+      <div id="pix" style="display: none;" class="terminal-alert terminal-alert-error">pix.dunossauro@gmail.com</div>
     </div>
 
     <div class="row">
