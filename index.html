@@ -4,6 +4,7 @@
     <title>Dunossauro</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+
     <style>
       :root {
         --global-font-size: 24px;
@@ -28,7 +29,7 @@
       }
       .row {
 	  margin-top: 10px;
-	  margin-bottom: 10px;
+	  margin-bottom: 30px;
       }
       img {
 	  border-radius: 50%;
@@ -41,15 +42,33 @@
       button {
 	  width: 300px;
       }
+      #pix {
+	  width: 600px;
+	  margin: auto;
+	  margin-top: 20px;
+	  display: none;
+      }
     </style>
+
+    <script>
+      function showPix() {
+	  var htmlShow = document.getElementById("pix");
+	  if (htmlShow.style.display === "none") {
+	      htmlShow.style.display = "block";
+	  } else {
+	      htmlShow.style.display = "none";
+	  }
+      }
+    </script>
   </head>
   <body>
 
-    <h2>@Dunossauro</h2>
+    <h2 style="margin-top: 30px;">@Dunossauro</h2>
     <img src="images/dunossauro_pic.jpg"/>
     </br>
     </br>
-    <h3>Pythonista / Youtuber / Músico</h3>
+    <h6>Eduardo Mendes</h6>
+    <h3 style="margin-bottom: 5px;">Pythonista / Youtuber / Músico</h3>
     <p>"Apenas um rapaz latino americano"</p>
 
     <div>
@@ -98,6 +117,25 @@
 	</div>
       </button>
     </div>
+
+    <div class="row">
+      <h5>Apoie o meu trabalho</h5>
+      <button class="btn btn-default btn-ghost" onclick="window.open('http://apoia.se/livedepython')">
+	Apoia.se
+      </button>
+      <button class="btn btn-default btn-ghost" onclick="window.open('https://app.picpay.com/user/dunossauro')">
+	PicPay
+      </button>
+      <button class="btn btn-default btn-ghost" onclick="showPix()">
+	<div class="button">
+	  <i class="fa-brands fa-pix"></i>
+	  Pix
+	</div>
+      </button>
+
+      <div id="pix" class="terminal-alert terminal-alert-error">pix.dunossauro@gmail.com</div>
+    </div>
+
     <div class="row">
       <h5> Coding </h5>
       <button class="btn btn-default btn-ghost" onclick="window.open('http://github.com/dunossauro')">
