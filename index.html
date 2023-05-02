@@ -28,8 +28,7 @@
 	  text-align: center;
       }
       .row {
-	  margin-top: 10px;
-	  margin-bottom: 30px;
+	  margin: 10px;
       }
       img {
 	  border-radius: 50%;
@@ -47,6 +46,13 @@
 	  margin: auto;
 	  margin-top: 20px;
       }
+      h5 {
+	  margin-bottom: 10px;
+	  margin-top: 20px;
+      }
+      h2 {
+	  margin-top: 30px;
+      }
     </style>
 
     <script>
@@ -62,7 +68,7 @@
   </head>
   <body>
 
-    <h2 style="margin-top: 30px;">@Dunossauro</h2>
+    <h2>@Dunossauro</h2>
     <img src="images/dunossauro_pic.jpg"/>
     </br>
     </br>
@@ -70,7 +76,7 @@
     <h3 style="margin-bottom: 5px;">Pythonista / Youtuber / Músico</h3>
     <p>"Apenas um rapaz latino americano"</p>
 
-    <div>
+    <div class="row">
       <h5>Social</h5>
       <button class="btn btn-error btn-ghost" onclick="window.open('http://youtube.com/@dunossauro')">
 	<div class="button">
@@ -125,18 +131,28 @@
       <button class="btn btn-default btn-ghost" onclick="window.open('https://app.picpay.com/user/dunossauro')">
 	PicPay
       </button>
-      <button class="btn btn-default btn-ghost" onclick="showPix()">
+    </div>
+    <div class="row">
+      <button class="btn btn-error btn-ghost" onclick="showPix()">
 	<div class="button">
 	  <i class="fa-brands fa-pix"></i>
 	  Pix
 	</div>
       </button>
 
+      <button class="btn btn-default btn-ghost" onclick="window.open('https://www.patreon.com/dunossauro')">
+	<div class="button">
+	  <i class="fa-brands fa-patreon"></i>
+	  Patreon
+	</div>
+      </button>
+
       <div id="pix" style="display: none;" class="terminal-alert terminal-alert-error">pix.dunossauro@gmail.com</div>
+
     </div>
 
     <div class="row">
-      <h5> Coding </h5>
+      <h5> Código </h5>
       <button class="btn btn-default btn-ghost" onclick="window.open('http://github.com/dunossauro')">
 	<div class="button">
 	  <i class="fa-brands fa-github"></i>
@@ -152,7 +168,7 @@
     </div>
 
     <div class="row">
-      <h5>???</h5>
+      <h5>Outros links</h5>
       <button class="btn btn-default btn-ghost" onclick="window.open('https://medium.com/@dunossauro')">
 	<div class="button">
 	  <i class="fa-solid fa-rss"></i>
@@ -165,6 +181,8 @@
 	  Lab
 	</div>
       </button>
+    </div>
+    <div class="row">
       <button class="btn btn-default btn-ghost" onclick="window.open('https://tech.dunossauro.com')">
 	<div class="button">
 	  <i class="fa-solid fa-rss"></i>
