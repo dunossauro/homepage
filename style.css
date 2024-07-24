@@ -50,6 +50,10 @@ button {
     width: 600px;
 }
 
+.btn-small {
+    width: 200px;
+}
+
 .field {
     width: 600px;
     margin: auto;

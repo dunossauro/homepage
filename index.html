@@ -35,8 +35,30 @@
 	  Twitch
 	</div>
       </button>
+    </div>
+
+    <div class="row">
+
+      <button class="btn btn-default btn-ghost" onclick="window.open('https://blog.dunossauro.com')">
+	<div class="button">
+	  <i class="fa-solid fa-rss"></i>
+	  Blog
+	</div>
+      </button>
+
+      <button class="btn btn-default btn-ghost" onclick="showField('projetos')">
+	<div class="button">
+	  <i class="fa-solid fa-gears"></i>
+	  Projetos
+	</div>
+      </button>
+
+      <div id="projetos" style="display: none;" class="field terminal-alert terminal-alert-error">
+	Infelizmente essa página ainda não está disponível :(
+      </div>
 
     </div>
+
 
     <div class="row">
       <h5>Social</h5>
@@ -122,10 +144,10 @@
 	</div>
       </button>
 
-      <button class="btn btn-default btn-ghost" onclick="window.open('http://gitlab.com/dunossauro')">
+      <button class="btn btn-default btn-ghost" onclick="window.open('https://codeberg.org/dunossauro')">
 	<div class="button">
-	  <i class="fa-brands fa-gitlab"></i>
-	  Gitlab
+	  <img style="width:12%" src="https://design.codeberg.org/logo-kit/icon_inverted.svg"/>
+	  Codeberd
 	</div>
       </button>
 
@@ -135,34 +157,26 @@
 
       <h5>Outros links</h5>
 
-      <button class="btn btn-default btn-ghost" onclick="window.open('https://blog.dunossauro.com')">
-	<div class="button">
-	  <i class="fa-solid fa-rss"></i>
-	  Blog
-	</div>
-      </button>
-
-      <button class="btn btn-default btn-ghost" onclick="window.open('https://www.youtube.com/@dunolab')">
+      <button class="btn btn-default btn-ghost btn-small" onclick="window.open('https://www.youtube.com/@dunolab')">
 	<div class="button">
 	  <i class="fa-brands fa-youtube"></i>
+	  <br/>
 	  Lab
 	</div>
       </button>
 
-    </div>
-
-    <div class="row">
-
-      <button class="btn btn-default btn-ghost" onclick="window.open('https://medium.com/@dunossauro')">
+      <button class="btn btn-default btn-ghost btn-small" onclick="window.open('https://medium.com/@dunossauro')">
 	<div class="button">
 	  <i class="fa-solid fa-rss"></i>
+	  <br/>
 	  Posts antigos!
 	</div>
       </button>
 
-      <button class="btn btn-default btn-ghost" onclick="window.open('https://soundcloud.com/dunossauro')">
+      <button class="btn btn-default btn-ghost btn-small" onclick="window.open('https://soundcloud.com/dunossauro')">
 	<div class="button">
 	  <i class="fa-brands fa-soundcloud"></i>
+	  <br/>
 	  Soundcloud
 	</div>
       </button>
