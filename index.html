@@ -2,8 +2,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Dunossauro</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.4/dist/terminal.min.css" />
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="scripts.js"></script>
   </head>
@@ -17,9 +17,10 @@
     <h3 style="margin-bottom: 5px;">Pythonista / Youtuber / Músico</h3>
     <p>"Apenas um rapaz latino americano"</p>
 
+
     <div class="row">
 
-      <h5>Social</h5>
+      <h5>Conteúdo!</h5>
 
       <button class="btn btn-error" onclick="window.open('http://youtube.com/@dunossauro')">
 	<div class="button">
@@ -28,61 +29,29 @@
 	</div>
       </button>
 
-      <button class="btn btn-default btn-ghost" onclick="window.open('http://twitter.com/dunossauro')">
-	<div class="button">
-	  <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-x-twitter"></i>
-	  Twitter
-	</div>
-      </button>
-
-      <button class="btn btn-primary btn-ghost" onclick="window.open('https://bolha.us/@dunossauro')">
-	<div class="button">
-	  <i class="fa-brands fa-mastodon"></i>
-	  Mastodon
-	</div>
-      </button>
-
-    </div>
-
-    <div class="row">
-
-      <button class="btn btn-default btn-ghost" onclick="window.open('http://twitch.com/dunossauro')">
+      <button class="btn btn-twitch" onclick="window.open('http://twitch.com/dunossauro')">
 	<div class="button">
 	  <i class="fa-brands fa-twitch"></i>
 	  Twitch
 	</div>
       </button>
 
-      <button class="btn btn-default btn-ghost" onclick="window.open('http://instagram.com/dunossauro')">
-	<div class="button">
-	  <i class="fa-brands fa-instagram"></i>
-	  Instagram
-	</div>
-      </button>
-
-      <button class="btn btn-default btn-ghost" onclick="window.open('https://www.tiktok.com/@dunossauro')">
-	<div class="button">
-	  <i class="fa-brands fa-tiktok"></i>
-	  TikTok
-	</div>
-      </button>
-
     </div>
 
     <div class="row">
+      <h5>Social</h5>
 
-      <button class="btn btn-default btn-ghost" onclick="window.open('https://bsky.app/profile/dunossauro.bsky.social')">
+      <button class="btn btn-ghost" onclick="window.open('https://bolha.us/@dunossauro')">
 	<div class="button">
-	  <i class="fa-solid fa-square" style="color: #0079fe;"></i>
-	  Bluesky
+	  <i class="fa-brands fa-mastodon"></i>
+	  Mastodon
 	</div>
       </button>
 
-      <button class="btn btn-default btn-ghost" onclick="window.open('https://www.threads.net/@dunossauro')">
+      <button class="btn btn-ghost" onclick="window.open('https://bolha.photos/dunossauro')">
 	<div class="button">
-	  <i class="fa-brands fa-threads"></i>
-	  Threads
+	  <img style="width:10%" src="https://pixelfed-web1.nyc3.cdn.digitaloceanspaces.com/assets/images/pixelfed-icon-white.png"/>
+	  PixelFed
 	</div>
       </button>
 
@@ -103,10 +72,11 @@
 
     <div class="row">
 
-      <button class="btn btn-error btn-ghost" onclick="showPix()">
+      <button class="btn btn-primary btn-ghost" onclick="showField('pix')">
 	<div class="button">
-	  <i class="fa-brands fa-pix"></i>
-	  Pix
+	    <i class="fa-brands fa-pix"></i>
+	    Pix
+	    <i class="fa-solid fa-arrow-down"></i>
 	</div>
       </button>
 
@@ -117,7 +87,27 @@
 	</div>
       </button>
 
-      <div id="pix" style="display: none;" class="terminal-alert terminal-alert-error">pix.dunossauro@gmail.com</div>
+      <div id="pix" style="display: none;" class="field terminal-alert terminal-alert-error">
+	pix.dunossauro@gmail.com
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <h5> Contato </h5>
+
+      <button class="btn btn-primary btn-ghost btn-large" onclick="showField('email')">
+	<div class="button">
+	  <i class="fa-solid fa-envelope"></i>
+	  E-mail
+	  <i class="fa-solid fa-arrow-down"></i>
+	</div>
+      </button>
+
+      <div id="email" style="display: none;" class="field terminal-alert terminal-alert-error">
+	dunossauro@protonmail.com
+      </div>
 
     </div>
 

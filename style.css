@@ -15,6 +15,13 @@
     --progress-bar-fill: #62c4ff;
     --code-bg-color: #3f3f44;
     --input-style: solid;
+    --twitch-color: #8469b6;
+}
+
+.btn-twitch {
+  color:var(--invert-font-color);
+  background-color:var(--twitch-color);
+  border:1px solid var(--twitch-color)
 }
 
 body {
@@ -39,7 +46,11 @@ button {
     width: 300px;
 }
 
-#pix {
+.btn-large {
+    width: 600px;
+}
+
+.field {
     width: 600px;
     margin: auto;
     margin-top: 20px;
@@ -50,6 +61,8 @@ h5 {
     margin-top: 20px;
 }
 
+
 h2 {
     margin-top: 30px;
+    margin-bottom: 10px;
 }
