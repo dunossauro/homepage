@@ -32,7 +32,7 @@ body {
     margin: 10px;
 }
 
-img {
+#perfil {
     border-radius: 50%;
     width: 300px;
 }
@@ -69,4 +69,19 @@ h5 {
 h2 {
     margin-top: 30px;
     margin-bottom: 10px;
+}
+
+.card {
+    img{
+	width: 400px;
+    }
+}
+
+.flex {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
