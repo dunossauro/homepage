@@ -60,6 +60,11 @@ button {
     margin-top: 20px;
 }
 
+h1 {
+    text-align: center;
+    display: block;
+}
+
 h5 {
     margin-bottom: 10px;
     margin-top: 20px;
@@ -72,13 +77,27 @@ h2 {
 }
 
 .card {
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    p {
+	margin-left: 20%;
+	margin-right: 20%;
+    }
+    h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+    }
     img{
-	width: 400px;
+	margin: 10px;
+	margin-bottom: 20px;
+	width: 600px;
     }
 }
 
 .flex {
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
