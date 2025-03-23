@@ -1,3 +1,9 @@
-Minha página pessoal :)
+# Minha página pessoal :)
 
-https://dunossauro.com
+Link: https://dunossauro.com
+
+Usando:
+
+- html
+- css
+- terminal css
