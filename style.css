@@ -28,8 +28,12 @@ body {
     text-align: center;
 }
 
+
 .row {
     margin: 10px;
+    a:hover {
+	background-color: transparent;
+    }
 }
 
 #perfil {
