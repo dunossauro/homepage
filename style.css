@@ -28,7 +28,6 @@ body {
     text-align: center;
 }
 
-
 .row {
     margin: 10px;
     a:hover {
@@ -65,6 +64,7 @@ button {
 }
 
 h1 {
+    color:var(--font-color);
     text-align: center;
     display: block;
 }
@@ -107,4 +107,8 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+}
+
+a.h-card {
+    background: transparent;
 }
