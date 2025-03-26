@@ -112,3 +112,7 @@ h2 {
 a.h-card {
     background: transparent;
 }
+
+a.u-email {
+    color: var(--error-color);
+}
