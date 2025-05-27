@@ -6,6 +6,7 @@
 /github		/silos/github.html
 /codeberg	/silos/codeberg.html
 /dotfiles	/silos/dotfiles.html
-/lastfm		/lastfm.html
+/lastfm		/silos/lastfm.html
+/scrobbles	/silos/lastfm.html
 /stream		/silos/stream.html
 /projetos	/projetos.html
