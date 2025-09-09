@@ -28,6 +28,10 @@ body {
     text-align: center;
 }
 
+.terminal-nav{
+    flex-direction: column;
+}
+
 .row {
     margin: 10px;
     a:hover {
